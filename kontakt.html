@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Licni sajt</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!--Header start-->
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/e-logo.png" class="d-inline-block align-top" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meni" aria-controls="meni" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="meni">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Početna <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="omeni.html">O meni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mediji.html">Medija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="seminarski.html">Seminarski</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Header end-->
+
+
+    <div class="container-fluid text">
+        <hr>
+        <img src="img/kontakt.jpg" class="img-fluid " alt="header image" width="100%" style="height: 450px;">
+        <hr>
+        <h3 class="display-6 text-left">Adresa</h3>
+
+    </div>
+
+    <div class="container-fluid pl-0 pr-0">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.2835758041633!2d20.904481914964624!3d44.015534179110475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4757213b5c4bda79%3A0x3313e3242d88b42f!2z0JrRgNCw0ZnQsCDQkNC70LXQutGB0LDQvdC00YDQsCBJINCa0LDRgNCw0ZLQvtGA0ZLQtdCy0LjRm9CwIDExMCwg0JrRgNCw0LPRg9GY0LXQstCw0YY!5e0!3m2!1ssr!2srs!4v1553271542465" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+
+
+    <!-- Footer start-->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4 mt-4">
+        <div class="container text-center text-md-left">
+            <div class="row">
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <div class="container mt-5">
+
+                    <div class="row my-3">
+
+                        <div class="col-md-5">
+
+                            <h4 class="mb-4">Kontakt</h4>
+
+                            <form id="contact-form" method="post" action="" role="form" data-sr-id="0" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="ime">Ime *</label>
+                                            <input id="ime" type="text" name="ime" class="form-control" placeholder="Unesite ime" required="required" data-error="Unesite ime">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="prezime">Prezime *</label>
+                                            <input id="prezime" type="text" name="prezime" class="form-control" placeholder="Unesite prezime" required="required" data-error="Unesite prezime">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email">Email *</label>
+                                            <input id="email" type="email" name="email" class="form-control" placeholder="Unesite email" required="required" data-error="Unesite email">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="poruka">Poruka *</label>
+                                            <textarea id="poruka" name="poruka" class="form-control" placeholder="Unesite poruku" rows="5" required="required" data-error="Unesite poruku"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-info btn-send" value="Pošaljite poruku">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-muted">
+                                            <small><strong>*</strong> Ova polja su neophodna.</small>
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <div class="row text-center">
+                                <h4 class="mb-4 w-100 mt-4 mt-md-0">Informacije o meni</h4>
+                            </div>
+
+                            <div class="row text-center align:justify">
+                                <ul class="list-inform list-group list-group-flush bg-transparent w-100 mt-md-5" data-sr-id="2" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.6s;">
+                                    <li class="list-group-item bg-transparent border-0">Svetlana Jevđić</li>
+                                    <li class="list-group-item bg-transparent border-0">Kralja Aleksandra I Karađorđevića 110</li>
+                                    <li class="list-group-item bg-transparent border-0"><a href="tel:"></a></li>
+                                    <li class="list-group-item bg-transparent border-0"><a href="mailto:jevdjicsvetlana3@gmail.com">jevdjicsvetlana3@gmail.com</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <a href="https://www.facebook.com/svetlanajevdjic">
+                                <i class="fab fa-facebook-square fa-4x"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/ceca_jevdjic/?hl=sr">
+                                <i class="fab fa-instagram fa-4x ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: Svetlana</div>
+    </footer>
+    <!-- Footer end-->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
